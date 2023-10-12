@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 244, 231);
+}
+
+.container {
+    width: 840px;
+    height: 520px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    display: grid;
+    position: relative;
+    background-color: white;
+    grid-template-columns: 1fr;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgb(110, 235, 38);
+    background-color:rgb(93, 190, 37) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.aa {
+    position: absolute;
+    top: 21px;
+    left: 38px;
+    font-size: 55px;
+} 
+.a1 {
+    position: absolute;
+    top: 92px;
+    left: 35px;
+    font-size: 29px;
+}
+.a1a {
+    position: absolute;
+    top: 115px;
+    left: 55px;
+    font-size: 29px;
+}
+.a2 {
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    font-size: 19px;
+}
+.aaa1 {
+    text-decoration: none;
+    color: rgb(5, 156, 5);
+}
+.a12 {
+    position: absolute;
+    top: 299px;
+    left: 35px;
+    font-size: 69px;
+}
+.aa1 {
+    width: 130px;
+    height: 40px;
+   color: white;
+    border-radius:50px;
+    background-color: rgb(255, 140, 0);
+    position: absolute;
+    top: 400px;
+    left: 35px;
+}
+.box2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(93, 190, 37) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 59px;
+    right: 285px;
+}
+.a11 {
+    position: absolute;
+    top: 59px;
+    right: 165px;
+    font-size: 15px;
+}
+.a111 {
+    position: absolute;
+    top: 89px;
+    right: 80px;
+    font-size: 13px;
+}
+.a123 {
+    position: absolute;
+    top: 119px;
+    right: 145px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(255, 157, 38);;
+}
+.dum {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(93, 190, 37) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 199px;
+    right: 285px;
+}
+.a11a  {
+    position: absolute;
+    top: 198px;
+    right: 209px;
+    font-size: 15px;
+}
+.a111a {
+    position: absolute;
+    top: 240px;
+    right: 85px;
+    font-size: 13px;
+}
+.aa9 {
+    position: absolute;
+    top: 266px;
+    right: 113px;
+    font-size: 13px;
+}
+.a19 {
+    position: absolute;
+    top: 293px;
+    right: 120px;
+    font-size: 13px;
+}
+.tum {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(93, 190, 37) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 349px;
+    right: 285px;
+}
+.a119 {
+    position: absolute;
+    top: 349px;
+    right: 210px;
+    font-size: 19px;
+}
+.a1119 {
+    position: absolute;
+    top: 399px;
+    right: 99px;
+    font-size: 14px;
+}
+.as {
+    position: absolute;
+    top: 437px;
+    right: 155px;
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+}
+.sahif {
+    width: 1600px;
+    height: 70px;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: rgb(240, 240, 240);
+   
+}
+.belgi {
+    width: 25px;
+    height: 25px;
+    margin-left:-30px;
+    margin-top: -27px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: blue;
+}
+.tochka {
+    width: 6px;
+    height: 14px;
+    background-color: blue;
+    margin-left: -21px;
+    margin-top: -9px;
+}
+.nn {
+    margin-left:-25px;
+    margin-top: -20px;
+    width:15px;
+    border-top-right-radius: 9px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+}
+@media (max-width:600px) {
+    .container {
+       width: 600px;
+       display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    
+ }
